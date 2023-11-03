@@ -1,0 +1,87 @@
+.homepage{
+    background-color: bisque;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+.logo img{
+    max-width: 80px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu li{
+    margin-right: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu a:hover{
+    color: brown;
+    font-size: large;
+}
+.background{
+    text-align: center;
+    padding: 100px;
+}
+.ground{
+    text-align: center;
+}
+.features img{
+    height: 200px;
+    width: 200px;
+   
+}
+.features{
+    justify-content: space-between;
+    display: flex;  
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.about{
+    display: flex;
+    justify-content:space-between;
+    padding: 50px;
+
+}
+.round img{
+    height:500px;
+    width: auto;
+}
+.web{
+    padding-left: 50px;
+}
+.ourwork1{
+    color: rgba(104, 80, 49, 0.212);
+    text-align: center;
+}
+.ourwork2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.ourwork2 :hover{
+    background-color: sandybrown;
+    font-size: large;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+.images img{
+    height: 200px;
+    width: auto;
+}
